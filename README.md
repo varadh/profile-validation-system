@@ -72,5 +72,51 @@ HTTP GET
 /profile/{id} (taxidentifier)
 
 RESPONSE:
+{
+	"companyName": "Reliance Industries",
+	"legalName": "Reliance Industries",
+	"businessAddress": {
+		"address1": "1 First Street",
+		"address2": "Mulund",
+		"city": "Mumbai",
+		"state": "Maharashtra",
+		"zip": "2093402",
+		"country": "INDIA"
+	},
+	"legalAddress": {
+		"address1": "1 First Street",
+		"address2": "Mulund",
+		"city": "Mumbai",
+		"state": "Maharashtra",
+		"zip": "2093402",
+		"country": "INDIA"
+	},
+	"pan": "ASDSD2323802",
+	"email": "mail@reliance.com",
+	"website": "www.reliance.com"
+}
+
+Member-Subscription Service: 
+HTTP GET
+/subscription/{memberId}
+
+RESPONSE:
+200 OK - 
+{
+  "products":[ 
+   product1,
+   product2,
+   product3
+   ]
+}
+
+404 - Resource Not found
+500 - Internal server error
+
+
+
+
+
+
 
 
