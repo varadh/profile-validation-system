@@ -8,27 +8,27 @@ HTTP POST
 /profile
 REQUEST:
 {
-	"companyName": "",
-	"legalName": "",
+	"companyName": "Reliance Industries",
+	"legalName": "Reliance Industries",
 	"businessAddress": {
-		"address1": "",
-		"address2": "",
-		"city": "",
-		"state": "",
-		"zip": "",
-		"country": ""
+		"address1": "1 First Street",
+		"address2": "Mulund",
+		"city": "Mumbai",
+		"state": "Maharashtra",
+		"zip": "2093402",
+		"country": "INDIA"
 	},
 	"legalAddress": {
-		"address1": "",
-		"address2": "",
-		"city": "",
-		"state": "",
-		"zip": "",
-		"country": ""
+		"address1": "1 First Street",
+		"address2": "Mulund",
+		"city": "Mumbai",
+		"state": "Maharashtra",
+		"zip": "2093402",
+		"country": "INDIA"
 	},
-	"pan": "",
-	"email": "",
-	"website": ""
+	"pan": "ASDSD2323802",
+	"email": "mail@reliance.com",
+	"website": "www.reliance.com"
 }
 
 RESPONSE:
