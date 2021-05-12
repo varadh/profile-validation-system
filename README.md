@@ -1,11 +1,13 @@
 # profile-validation-system
 
 
-SYSTEM DESIGN:
+**SYSTEM DESIGN:
+**
 ![QB Validation System Design](https://user-images.githubusercontent.com/12950193/117947906-42789b80-b32e-11eb-89da-bf910d6c0b13.png)
 
 
-Interface Definitions:
+**Interface Definitions:
+**
 #1 CREATE Profile:
 HTTP POST
 /profile
@@ -147,7 +149,7 @@ public interface iDataConsumer {
 
 
 
-HOW THE FLOW WORKS?
+**HOW THE FLOW WORKS?**
 #1 Create Profile Flow:
 Business Profile Service:
 a. client makes a call to /profile POST REST API, with the authentication token and the request payload
