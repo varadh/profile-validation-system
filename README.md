@@ -2,7 +2,7 @@
 
 
 SYSTEM DESIGN:
-
+![QB Validation System Design](https://user-images.githubusercontent.com/12950193/117947906-42789b80-b32e-11eb-89da-bf910d6c0b13.png)
 
 
 Interface Definitions:
