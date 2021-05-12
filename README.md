@@ -114,6 +114,23 @@ RESPONSE:
 500 - Internal server error
 
 
+Interfaces:
+public interface iDataPublisher {
+    public void init();
+    public void publish(String messageId, String message);
+}
+
+
+public interface iProfileStore {
+    public ProfileStatus findProfileStatusByTaxIdentifier(String taxIdentifier);
+    public void deleteMessageByTaxIdentifier(String taxIdentifier);
+    public Profile findProfileByTaxIdentifier(String taxIdentifier);
+}
+
+public interface iDataConsumer {
+	public void init();
+	public Object consume();
+}
 
 
 
